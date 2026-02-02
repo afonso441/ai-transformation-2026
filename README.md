@@ -4,31 +4,156 @@
 
 ## About This Project
 
-20+ years of C/C++ embedded development. 
-14 months to master AI engineering.
-This repository documents every step.
-
-## Month 1: Python AI Fundamentals
-
-### Week 1: Claude API Basics
-- [x] Day 1: Environment setup + first API call
-- [ ] Day 2: Python async fundamentals
-- [ ] Day 3: API error handling
-- [ ] Day 4: REST API integration
-- [ ] Day 5: Prompt engineering
-- [ ] Day 6-7: Build PDF Q&A bot
-
-## Progress
-
-**Current:** Day 1 Complete ✅  
-**Next:** Async Python patterns
-
-## Tech Stack
-
-- Python 3.11+
-- Anthropic Claude API
-- VS Code
+After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering over the next 14 months. This repository documents every step.
 
 ---
 
-*Updated: [2/2/2026]*
+## Month 1: Python AI Fundamentals
+
+### Week 1: Python Basics + Claude API (In Progress)
+
+**Focus:** Environment setup, basic Python, first API calls
+
+**Progress This Week:**
+
+✅ **Day 1 Complete:**
+- Environment setup (Python 3.11+, VS Code, virtual environment)
+- Anthropic SDK installation and configuration
+- API key setup (.env file)
+- First successful Claude API call (`day1_hello_claude.py`)
+- Experimentation with different prompts (`day1_experiment.py`)
+- Environment verification (`test_setup.py`)
+
+**Files Created:**
+- `day1_hello_claude.py` - First API integration
+- `day1_experiment.py` - Testing different prompts and parameters
+- `test_setup.py` - Verify environment configuration
+- `.env` - API key storage (gitignored)
+- `requirements.txt` - Project dependencies
+
+**What I Learned:**
+- Claude API structure (models, messages, tokens)
+- Python virtual environments
+- Environment variable management
+- Basic prompt engineering concepts
+
+**Remaining This Week:**
+- [ ] Continue building Python scripts with Claude API
+- [ ] Practice error handling and retries
+- [ ] Experiment with system prompts
+- [ ] Build useful automation scripts
+- [ ] Complete Week 1 by Sunday
+
+---
+
+### Week 2: Async Python + REST APIs (Coming Soon)
+
+**Deliverable:** CLI weather assistant
+
+---
+
+### Week 3: Prompt Engineering (Coming Soon)
+
+**Deliverable:** PDF summarizer v1
+
+---
+
+### Week 4: LangChain Basics + Memory (Coming Soon)
+
+**Deliverable:** Deployed PDF Q&A chatbot
+
+---
+
+## Progress Tracker
+
+**Current Status:** Month 1, Week 1, Day 1 ✅  
+**Time Invested:** ~2 hours  
+**Scripts Built:** 3  
+**Next:** Continue Week 1 development
+
+---
+
+## Tech Stack
+
+**Current:**
+- Python 3.11+
+- Anthropic Claude API (Sonnet 4)
+- VS Code
+- Git/GitHub
+- Libraries: anthropic, python-dotenv
+
+---
+
+## My Background
+
+**Experience:** 20+ years embedded systems (C/C++, RTOS, hardware)  
+**Goal:** AI Engineer specializing in Edge AI / IoT  
+**Timeline:** 14 months
+
+---
+
+## Learning Resources
+
+**Week 1:**
+- Anthropic API Documentation
+- DeepLearning.AI: "ChatGPT Prompt Engineering for Developers" (in progress)
+- Python official documentation
+
+---
+
+## Stats
+
+**Day 1:**
+- ✅ Environment working
+- ✅ 3 Python files created
+- ✅ First API call successful
+- ✅ GitHub repo initialized
+
+---
+
+## License
+
+MIT License
+
+---
+
+**Last Updated:** February 3, 2026  
+**Current:** Week 1, Day 1 Complete  
+**Next:** Continue building Week 1 scripts
+
+---
+
+*"Day 1: From malloc() to AI API calls. The journey begins."* 🚀
+```
+
+---
+
+## **Key Corrections:**
+
+✅ **Removed day-by-day Week 1 breakdown** (that was wrong)  
+✅ **Week 1 is ONE UNIT** (not 7 separate days)  
+✅ **Day 1 shown as progress within Week 1** (correct structure)  
+✅ **Focus on what you actually built** (3 files)  
+✅ **Matches original plan** (week-based, not day-based)  
+
+---
+
+## **The Structure is Now:**
+```
+Month 1
+├── Week 1: Python Basics + Claude API (current, in progress)
+│   ├── Day 1 ✅ (setup + first scripts)
+│   ├── Day 2-6 (continue building)
+│   └── Day 7 (complete week)
+├── Week 2: Async + REST APIs
+├── Week 3: Prompt Engineering
+└── Week 4: LangChain + Deploy
+```
+
+**NOT:**
+```
+Week 1
+├── Day 1: Setup
+├── Day 2: Async ❌ (this was wrong)
+├── Day 3: Errors ❌ (this was wrong)
+etc.
