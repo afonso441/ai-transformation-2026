@@ -24,27 +24,29 @@ After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering ov
 - Experimentation with different prompts (`day1_experiment.py`)
 - Environment verification (`test_setup.py`)
 
+✅ **Day 2 Complete:**
+- Completed DeepLearning.AI Prompt Engineering (Lessons 1-2)
+- Production error handling with exponential backoff
+- Prompt engineering experiments (vague vs specific)
+- 5 total scripts now
+
 **Files Created:**
 - `day1_hello_claude.py` - First API integration
-- `day1_experiment.py` - Testing different prompts and parameters
-- `test_setup.py` - Verify environment configuration
-- `.env` - API key storage (gitignored)
-- `requirements.txt` - Project dependencies
+- `day1_experiment.py` - Prompt testing
+- `test_setup.py` - Environment verification
+- `day2_error_handling.py` - Retry logic with backoff ✨
+- `day2_prompt_experiments.py` - Prompt quality comparison ✨
 
-**What I Learned:**
-- Claude API structure (models, messages, tokens)
-- Python virtual environments
-- Environment variable management
-- Basic prompt engineering concepts
+**Key Learnings:**
+- Error handling patterns (retry + exponential backoff)
+- Specific prompts with context = 10x better results
+- Prompt engineering is like optimizing code - details matter
 
 **Remaining This Week:**
-- [ ] Continue building Python scripts with Claude API
-- [ ] Practice error handling and retries
-- [ ] Experiment with system prompts
-- [ ] Build useful automation scripts
-- [ ] Complete Week 1 by Sunday
-
----
+- [ ] Days 3-7: Continue building and experimenting
+- [ ] Build system prompts for specialized AI
+- [ ] Create more tools I'll actually use
+- [ ] Week 1 summary by Sunday
 
 ### Week 2: Async Python + REST APIs (Coming Soon)
 
