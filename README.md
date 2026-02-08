@@ -4,7 +4,7 @@
 
 ## About This Project
 
-After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering over the next 14 months. This repository documents every step.
+After 7+ years of C/C++ embedded development, I'm pivoting to AI engineering over the next 14 months. This repository documents every step.
 
 ---
 
@@ -30,22 +30,35 @@ After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering ov
 - Prompt engineering experiments (vague vs specific)
 - 5 total scripts now
 
+✅ **Day 3 Complete:**
+- Learned system prompts (AI behavior customization)
+- Built embedded systems code reviewer
+- Built hardware documentation assistant
+- Created custom AI assistant for my specific work needs
+- 8 total scripts now
+
 **Files Created:**
 - `day1_hello_claude.py` - First API integration
 - `day1_experiment.py` - Prompt testing
 - `test_setup.py` - Environment verification
 - `day2_error_handling.py` - Retry logic with backoff ✨
 - `day2_prompt_experiments.py` - Prompt quality comparison ✨
+- `day3_system_prompt_demo.py` - Understanding system prompts ✨
+- `day3_code_reviewer.py` - AI code reviewer for embedded C ✨
+- `day3_hardware_docs_assistant.py` - Hardware Q&A expert ✨
 
 **Key Learnings:**
 - Error handling patterns (retry + exponential backoff)
 - Specific prompts with context = 10x better results
 - Prompt engineering is like optimizing code - details matter
+- System prompts = AI initialization/configuration
+- Can create domain-specific AI experts
+- One system prompt can transform generic AI into specialized tool
+- These assistants are actually useful for real work!
 
 **Remaining This Week:**
-- [ ] Days 3-7: Continue building and experimenting
-- [ ] Build system prompts for specialized AI
-- [ ] Create more tools I'll actually use
+- [ ] Days 4-7: More practical tools and experiments
+- [ ] Complete DeepLearning.AI course
 - [ ] Week 1 summary by Sunday
 
 ### Week 2: Async Python + REST APIs (Coming Soon)
@@ -66,15 +79,6 @@ After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering ov
 
 ---
 
-## Progress Tracker
-
-**Current Status:** Month 1, Week 1, Day 1 ✅  
-**Time Invested:** ~2 hours  
-**Scripts Built:** 3  
-**Next:** Continue Week 1 development
-
----
-
 ## Tech Stack
 
 **Current:**
@@ -88,28 +92,9 @@ After 20+ years of C/C++ embedded development, I'm pivoting to AI engineering ov
 
 ## My Background
 
-**Experience:** 20+ years embedded systems (C/C++, RTOS, hardware)  
+**Experience:** 7+ years embedded systems (C/C++, RTOS, hardware)  
 **Goal:** AI Engineer specializing in Edge AI / IoT  
 **Timeline:** 14 months
-
----
-
-## Learning Resources
-
-**Week 1:**
-- Anthropic API Documentation
-- DeepLearning.AI: "ChatGPT Prompt Engineering for Developers" (in progress)
-- Python official documentation
-
----
-
-## Stats
-
-**Day 1:**
-- ✅ Environment working
-- ✅ 3 Python files created
-- ✅ First API call successful
-- ✅ GitHub repo initialized
 
 ---
 
