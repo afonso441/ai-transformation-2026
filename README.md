@@ -1,23 +1,22 @@
 ### Week 3: Prompt Engineering (In Progress)
 
-**Goal:** Master advanced prompting to get 10x better results from AI
-
 **Progress:**
 
-✅ **Day 1 Complete:** Advanced system prompts + Few-shot learning
+✅ **Day 1 Complete:** Advanced system prompts + Few-shot learning  
+✅ **Day 2 Complete:** Chain-of-thought + Prompt chaining 🎯
 
-**Day 1 Highlights:**
-- Mastered role-based system prompts
-- Learned few-shot learning (teach by example)
-- Built code documenter using advanced prompts
-- Tested 5 different AI expert personas
+**Day 2 Highlights:**
+- Mastered chain-of-thought reasoning (AI shows its work)
+- Built multi-step prompt chaining workflows
+- Created 4-step code performance analyzer
+- Developed intelligent debugger using CoT + chaining
+- Systematic problem-solving vs one-shot prompts
 
-**Files Created (Day 1):**
-- `week3_day1_role_prompts.py` - Role-based AI comparison ✨
-- `week3_day1_few_shot.py` - Few-shot learning examples ✨
-- `week3_day1_code_documenter.py` - Automatic documentation tool ✨
+**Files Created (Day 2):**
+- `week3_day2_chain_of_thought.py` - CoT comparison ✨
+- `week3_day2_prompt_chaining.py` - 4-step analyzer ✨
 
 **Key Learning:**
-"The same AI model gives dramatically different results based on prompting quality. Few-shot learning + role prompts = consistent, expert-level outputs."
+"Chain-of-thought makes AI 30-50% more accurate on complex problems. Prompt chaining breaks hard tasks into manageable steps. Together = systematic, debuggable AI reasoning."
 
-**Week 3 Progress:** 1/7 days (14%)
+**Week 3 Progress:** 2/7 days (29%)
