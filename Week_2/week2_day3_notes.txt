@@ -1,0 +1,21 @@
+Week 2 Day 3: Combining Async + APIs + AI
+
+Architecture:
+1. User asks about weather in a city
+2. Async fetch weather data (fast, parallel if multiple cities)
+3. Pass weather data to Claude for interpretation
+4. Claude analyzes: temperature, humidity, conditions
+5. Claude provides: what to wear, activity recommendations, travel tips
+
+Why this pattern matters:
+- Async = Speed (fetch multiple cities at once)
+- API = Real data (not static/fake)
+- AI = Intelligence (turn raw data into insights)
+
+Real-world applications:
+- Stock analysis (fetch prices, AI analyzes trends)
+- IoT monitoring (fetch sensor data, AI detects anomalies)
+- News aggregation (fetch articles, AI summarizes)
+- Health tracking (fetch vitals, AI gives recommendations)
+
+This is the foundation of 90% of AI applications!
