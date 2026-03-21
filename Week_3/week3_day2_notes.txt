@@ -1,0 +1,46 @@
+Week 3 Day 2: Chain-of-Thought Reasoning & Prompt Chaining
+
+Chain-of-Thought (CoT) Prompting:
+- Ask AI to "think step-by-step"
+- AI shows reasoning process
+- Better accuracy on complex problems
+- Helps debug AI logic
+
+Without CoT:
+Q: "Calculate optimal resistor value for 3.3V to 5V level shift"
+A: "Use 2.2kΩ"
+→ No explanation, hard to verify
+
+With CoT:
+Q: "Calculate optimal resistor value for 3.3V to 5V level shift. 
+    Think step-by-step."
+A: "Let me work through this:
+    1. Voltage difference: 5V - 3.3V = 1.7V
+    2. Assuming 1mA current for reliable switching
+    3. R = V/I = 1.7V / 0.001A = 1700Ω
+    4. Standard value: 1.8kΩ or 2.2kΩ
+    5. Choose 2.2kΩ for safety margin"
+→ Can verify each step!
+
+Prompt Chaining:
+- Break complex task into subtasks
+- Output of step 1 → Input of step 2
+- Each step has focused prompt
+- Better results than one giant prompt
+
+Example: Code Review Process
+Step 1: "Extract all functions from this code"
+Step 2: "For each function, analyze complexity"
+Step 3: "Identify performance bottlenecks"
+Step 4: "Suggest optimizations"
+→ Each step is simpler, more accurate
+
+Benefits:
+- Higher accuracy (especially on hard problems)
+- Debuggable reasoning
+- Modular, reusable steps
+- Better error handling
+
+Embedded analogy:
+CoT = Adding debug print statements to see state
+Chaining = Pipeline processing (ADC → Filter → Analysis → Action)
