@@ -1,0 +1,19 @@
+Week 2 Day 2: REST API Integration
+
+Key Concepts:
+- REST = Representational State Transfer (web architecture)
+- HTTP Methods: GET (fetch data), POST (send data), PUT, DELETE
+- JSON = JavaScript Object Notation (data format, like structs in C)
+- API Endpoint = URL you send requests to
+- API Key = Authentication (like a password)
+
+Example API call:
+URL: https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_KEY
+Returns: {"temp": 15, "humidity": 65, "description": "cloudy"}
+
+Python library: requests (for HTTP calls)
+Response format: JSON (parsed to Python dict)
+
+Comparison to embedded:
+C:   Send command byte → Read response bytes → Parse protocol
+Web: Send HTTP request → Receive JSON → Parse to dict
